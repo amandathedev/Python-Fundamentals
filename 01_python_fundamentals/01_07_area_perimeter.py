@@ -11,3 +11,7 @@ perimeter = (height * 2) + (width * 2)
 
 print(area)
 print(perimeter)
+
+fruit = "banana"
+fruit.s(fruit[:2], '')
+fruit.capitalize()
