@@ -7,3 +7,9 @@ Letter input: o
 Result: 4
 
 '''
+string = input("Enter a phrase: ")
+letter = input("Choose a letter from the phrase: ")
+
+found = string.find(letter)
+
+print(found)
