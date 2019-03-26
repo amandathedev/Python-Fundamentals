@@ -8,16 +8,13 @@ result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
 '''
 
 sentence = input("Enter a sentence: ")
-# word_list = sentence.split()
-# print(word_list)
+word_list = sentence.split()
 
-# chars = []
-# for x in sentence:
-#     chars.append(x)
-# print(chars)
+chars = []
+for x in word_list:
+    chars.append(tuple(x))
 
-# tuple_list = tuple(word_list)
-# print(type(tuple_list))
+print(chars)
 
-sentence = list(map(tuple, sentence.split()))
-print(sentence)
+# sentence = list(map(tuple, sentence.split()))
+# print(sentence)
