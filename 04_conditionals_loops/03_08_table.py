@@ -8,3 +8,8 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+
+for x in range(0, 50, 10):
+    # for y in range(1, 10):
+        # print(x, x + y)
+    print(x, x + 1, x + 2, x + 3, x + 4, x + 5, x + 6, x + 7, x + 8, x + 9)
