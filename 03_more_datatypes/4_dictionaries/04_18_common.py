@@ -8,7 +8,7 @@ dict_2 = {"a": 2, "c": 4 , "d": 2}
 result = {"a": 3, "b": 2, "c": 7 , "d": 2}
 
 '''
-# https://stackoverflow.com/questions/11011756/is-there-any-pythonic-way-to-combine-two-dicts-adding-values-for-keys-that-appe
+# https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-19.php
 
 from collections import Counter
 
