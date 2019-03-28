@@ -5,6 +5,8 @@ input_dict = {"item1": 5, "item2": 6, "item3": 1}
 result_list = [("item3", 1), ("item1", 5), ("item2", 6)]
 
 '''
+# http://thomas-cokelaer.info/blog/2017/12/how-to-sort-a-dictionary-by-values-in-python/
+
 import operator
 input_dict = {"item1": 5, "item2": 6, "item3": 1}
 print(input_dict)
