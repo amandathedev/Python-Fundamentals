@@ -25,7 +25,7 @@ for word in new_list:
         # Set max occurrence equal to the highest count so far
         max_occurrence = new_list.count(word)
 
-print(int(max_word) + 1)
+print(max_word)
 
 
 print(max_occurrence)
