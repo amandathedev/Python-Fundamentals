@@ -9,8 +9,8 @@ my_dict = {"1": "1", "2": "4", "3": "6", "4": "16"}
 print(my_dict)
 
 # Loop through the numbers 1 - 10
-for num in range(1, 11):
-    square = num ** num
+# for num in range(1, 11):
+#     square = num ** num
 
 
 # dict_2 = dict(1="1", 2="4", 3="9", 4="16", 5="25", 6="36")
