@@ -18,3 +18,19 @@ famous_quotes = [
     {"full_name": "Nathan Myhrvold", "quote": "Software is a gas; it expands to fill its container."},
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
+
+# https://stackoverflow.com/questions/55433855/how-to-combine-list-of-dictionaries-based-on-key
+
+for x in famous_quotes:
+    print(f"\"{x['quote']}\" - {', '.join(reversed(x['full_name'].split()))}")
+
+# quote_names = [k['full_name'] for k in famous_quotes]
+# quote = [i['quote'] for i in famous_quotes]
+
+# print(f"\"{quote[0]}\" - {quote_names[0]} ")
+# print(f"\"{quote[1]}\" - {quote_names[1]} ")
+# print(f"\"{quote[2]}\" - {quote_names[2]} ")
+# print(f"\"{quote[3]}\" - {quote_names[3]} ")
+# print(f"\"{quote[4]}\" - {quote_names[4]} ")
+# print(f"\"{quote[5]}\" - {quote_names[5]} ")
+# print(f"\"{quote[6]}\" - {quote_names[6]} ")
